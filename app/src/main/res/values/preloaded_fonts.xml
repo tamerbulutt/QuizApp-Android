@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/advent_pro_semibold</item>
+        <item>@font/aldrich</item>
+        <item>@font/allerta</item>
+        <item>@font/architects_daughter</item>
+        <item>@font/audiowide</item>
+        <item>@font/berkshire_swash</item>
+        <item>@font/cuprum</item>
+        <item>@font/frijole</item>
+        <item>@font/jockey_one</item>
+        <item>@font/metal_mania</item>
+        <item>@font/monofett</item>
+        <item>@font/montserrat_alternates</item>
+        <item>@font/new_rocker</item>
+        <item>@font/rationale</item>
+        <item>@font/sancreek</item>
+    </array>
+</resources>

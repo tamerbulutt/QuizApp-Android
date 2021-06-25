@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    tools:context=".MainActivity">
+
+    android:layout_marginTop="50dp"
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="329dp"
+        android:layout_height="51dp"
+        android:fontFamily="@font/audiowide"
+        android:text="@string/btnLogin"
+        android:textColorHighlight="@color/purple_200"
+        android:textSize="18sp"
+        app:backgroundTint="@android:color/tertiary_text_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.408" />
+
+    <Button
+        android:id="@+id/btnUserInfo"
+        android:layout_width="329dp"
+        android:layout_height="51dp"
+        android:fontFamily="@font/audiowide"
+        android:text="Kullanıcı Bilgi"
+        android:textSize="18sp"
+        app:backgroundTint="@android:color/holo_green_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.507" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="329dp"
+        android:layout_height="51dp"
+        android:fontFamily="@font/audiowide"
+        android:text="Çıkış"
+        android:textSize="18sp"
+        app:backgroundTint="@android:color/holo_red_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.698" />
+
+    <Button
+        android:id="@+id/btnSoruOnerisi"
+        android:layout_width="329dp"
+        android:layout_height="51dp"
+        android:fontFamily="@font/audiowide"
+        android:text="BİR SORU ÖNER!"
+        android:textSize="18sp"
+        app:backgroundTint="@color/design_default_color_error"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.601" />
+
+    <TextView
+        android:id="@+id/txtLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/new_rocker"
+        android:text="QuizApp"
+        android:textColor="@color/design_default_color_on_primary"
+        android:textSize="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.12" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
